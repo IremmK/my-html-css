@@ -1,0 +1,34 @@
+HTML:
+-MarkUp Language
+-Use html tags to create web elements
+-h1 -h6 -> Header
+-p -> paragraph
+-Opening tag : <h1>
+-Closing tag : </h1>
+-Example : <h1> How are you?</h1>
+
+CSS : Cascade Style Sheet
+Used for adding style such as color, wifth, height, spacing
+
+There are 3 ways to add styling/ use CSS
+-1. Inline : <h1 style="color: red"> How are you? </h1>
+-2. Internal : Use style tag inside HTML file 
+/*
+<style>
+    h1{
+        color: red;
+    }
+    </style>
+
+*/
+-External : Creating an external CSS Sheet.
+In style.css, we can use css files without using <style> keyword
+h1{
+    color:red;
+
+}
+</style>
+Notes : External styling is preferred since it makes the code clean
+        We souldn't use tags for styling. Class is the most common way to add styling for html.
+        Class is used for styling multiple elements. Class can repeat.
+        Id is used for styling UNIQUE elements. Id should not repeat.        

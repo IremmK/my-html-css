@@ -4,12 +4,18 @@ h1{
     background-color: black;
     font-family: cursive;
 }
+/*Class is used for adding style for multiple elemnts. Class is the most common way to add a style to web elements*/
 .my-style{
     color:#a64dff;
     font-family: cursive; 
     text-align: center;
     background-color: rgb(255, 255, 128);
 
+}
+/*ID is used for styling unique elements*/
+#my-unique-id{
+    color: red;
+    background-color: black;
 }
 
 h4{
