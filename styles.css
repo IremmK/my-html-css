@@ -1,0 +1,21 @@
+h1{
+    color: #33ff33; 
+    font-size: 45px; 
+    background-color: black;
+    font-family: cursive;
+}
+.my-style{
+    color:#a64dff;
+    font-family: cursive; 
+    text-align: center;
+    background-color: rgb(255, 255, 128);
+
+}
+
+h4{
+    color: gold; 
+    font-size: 45px; 
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: lightblue;
+    text-align: right;
+}
